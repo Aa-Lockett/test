@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kanban MVP</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Kanban Task Manager MVP</h1>
+    <div id="board">
+        <div class="column" id="todo">
+            <h2>Todo</h2>
+            <div class="task-container" id="todoTasks"></div>
+            <input type="text" id="newTaskInput" placeholder="New task">
+            <button id="addTaskBtn">Add</button>
+        </div>
+        <div class="column" id="doing">
+            <h2>Doing</h2>
+            <div class="task-container" id="doingTasks"></div>
+        </div>
+        <div class="column" id="done">
+            <h2>Done</h2>
+            <div class="task-container" id="doneTasks"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
